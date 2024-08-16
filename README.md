@@ -49,7 +49,7 @@ And there you have it, the rules defined in the filterDefinitions will be applie
       recursive: true
     },
     {
-      rule: '(category:Social or category:Promotions)',
+      rule: '(category:Social OR category:Promotions)',
       olderThanDays: 7
     }
   ])
