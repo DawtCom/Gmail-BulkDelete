@@ -136,8 +136,8 @@ function checkFiltersForEmails() {
 }
 
 function applyBulkAction(search, bulkAction) {
-  var batchSize = 100; //
-  var limitThreads = 400; // Limit search to only return 100 threads
+  var batchSize = 100; //  Limit batch sizes to 100 at a time
+  var limitThreads = 400; // Limit search to only return 400 threads
 
   var threads = GmailApp.search(search, 0, limitThreads);
   Logger.log(`Result count: ${threads.length}`);
