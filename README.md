@@ -4,7 +4,7 @@ This project aims to allow a person to define a set of filters based on labels o
 
 # Installation
 *  Create a project at [script.google.com](https://script.google.com/home)
-*  In the file that opens, normally called code.gs(you can rename this to a more palletable name like bulkDeletebyFilters.gs) paste the contents of the https://github.com/DawtCom/Gmail-BulkDelete/blob/master/DeleteEmails.gs
+*  In the file that opens, normally called code.gs (you can rename this to a more descriptive name like bulkDeletebyFilters.gs) paste the contents of the https://github.com/DawtCom/Gmail-BulkDelete/blob/master/DeleteEmails.gs
 *  Click on on the gear icon "Project Settings" and check the box next to: **Show "appsscript.json" manifest file in editor**.  This will unhide the appscript.json in the editor so that you can apply permission scopes for this to run properly
 *  Copy the contents of https://github.com/DawtCom/Gmail-BulkDelete/blob/master/appscript.json into the appscript.json of the project.
 *  Update the filterDefinitions section to match the criteria you want to use for bulk deletion of emails
