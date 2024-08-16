@@ -39,8 +39,23 @@
       recursive: true
     },
     {
-      rule: '(category:Social or category:Promotions)',
+      rule: '(category:promotions OR category:social)',
       olderThanDays: 7
+    },
+    {
+      label:'Inbox',
+      olderThanDays:180,
+      archive:true
+    },
+    {
+      label:'Monitoring',
+      olderThanDays:15,
+      recursive:true
+    },
+    {
+      label:'Sevs',
+      olderThanDays:15,
+      recursive:true
     }
   ])
 
